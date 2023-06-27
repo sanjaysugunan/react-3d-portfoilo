@@ -1,4 +1,4 @@
-#3D-react-portfolio-website-3js
+#react-3d-portfoilio
 
 live on
 https://s4njyy.netlify.app/

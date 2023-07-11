@@ -13,14 +13,12 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
     cbse,
     react,
     IITK,
-    carrent,
-    jobit,
-    tripguide,
+    portfolio,
+    tshirt,
+    notes,
     threejs,
   } from "../assets";
   
@@ -45,7 +43,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
@@ -102,15 +100,7 @@ import {
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    }
   ];
   
   const experiences = [
@@ -148,7 +138,7 @@ import {
       date: "Jun 2023 - Present",
       points: [
         "Developing web applications using React.js, Node.js, Mongodb, Express.js and other related technologies.",
-        "Learning and Implementing various advanced technologies like ThreeJs,WebRTC to real-world applications.",
+        "Learning and Implementing various advanced technologies like ThreeJs,Tailwind CSS and Framer Motion to real-world applications.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Providing services on Full-Stack web applications.",
       ],
@@ -158,38 +148,90 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Testimonals will be updated later. Waiting to gain few real-world experiences",
+      name: "XYZ",
+      designation: "CEO",
+      company: "123 Enterprises",
+      image: "https://simg.nicepng.com/png/small/289-2892199_admin-09-17-facebook-no-profile-pic-female.png",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Testimonals will be updated later. Waiting to gain few real-world experiences",
+      name: "XYZ",
+      designation: "CEO",
+      company: "123 Enterprises",
+      image: "https://simg.nicepng.com/png/small/289-2892199_admin-09-17-facebook-no-profile-pic-female.png",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Testimonals will be updated later. Waiting to gain few real-world experiences",
+      name: "XYZ",
+      designation: "CEO",
+      company: "123 Enterprises",
+      image: "https://simg.nicepng.com/png/small/289-2892199_admin-09-17-facebook-no-profile-pic-female.png",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "ThreeJs React Portfolio Website",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "React based 3D Portfolio Web-Application built with Framer-Motion, Tailwind-CSS and ThreeJS with 3D models and advanced animations.",
       tags: [
         {
           name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "threejs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "framer motion",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/sanjaysugunan/react-3d-portfoilo",
+      live_link: "https://s4njyy.netlify.app/",
+    },
+    {
+      name: "ThreeJs React Tshirt Design Website",
+      description:
+        "React based Web Application built with ThreeJS, Framer-Motion and Tailwind CSS. Users can design their favorite tshirts and download image in png.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "threejs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "framer motion",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: tshirt,
+      source_code_link: "https://github.com/sanjaysugunan/3d-tshirt-react",
+      live_link: "https://s4njy-3d-tshirt.netlify.app/",
+    },
+    {
+      name: "NodeJS MongoDB Note Taking App",
+      description:
+        "Complete Backend Application build with NodeJS, MongoDb, EJS and Passport. Users can signup or login with google oauth and create their notes",
+      tags: [
+        {
+          name: "nodejs",
           color: "blue-text-gradient",
         },
         {
@@ -197,54 +239,17 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "ejs",
           color: "pink-text-gradient",
         },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
+          name: "passport",
+          color: "orange-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: notes,
+      source_code_link: "https://github.com/sanjaysugunan/nodejs-notes-app-monogodb",
+      live_link: "https://nodejs-notes-app-s4njy.cyclic.app/",
     },
   ];
   

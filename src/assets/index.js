@@ -4,12 +4,11 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import live from "./live.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -25,9 +24,9 @@ import cbse from "./company/cbse.png";
 import IITK from "./company/IITK.jpg";
 import react from "./company/react.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import portfolio from "./portfolio.jpg";
+import tshirt from "./tshirt.png";
+import notes from "./notes.jpg";
 
 export {
   logo,
@@ -39,9 +38,8 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
   git,
+  live,
   html,
   javascript,
   mongodb,
@@ -54,7 +52,7 @@ export {
   cbse,
   IITK,
   react,
-  carrent,
-  jobit,
-  tripguide,
+  portfolio,
+  tshirt,
+  notes
 };
